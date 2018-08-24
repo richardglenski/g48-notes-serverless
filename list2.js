@@ -1,6 +1,6 @@
 // file list2.js  -- same as src/list.js
-import * as dynamoDbLib from "./libs/dynamodb-lib";
-import { success, failure } from "./libs/response-lib";
+import * as dynamoDbLib from "./src/libs/dynamodb-lib";
+import { success, failure } from "./src/libs/response-lib";
 
 export async function main(event, context, callback) {
   const params = {
