@@ -278,12 +278,12 @@ serverless invoke local --function list --path mocks/list-event.json
 serverless invoke local --function list2 --path mocks/list-event.json
 
 -------------this needs specific note id in mocks/get-event.json
-serverless invoke local --function get --path mocks/create-event-get-nopic.json
-serverless invoke local --function get --path mocks/create-event-get-tree1.json
-serverless invoke local --function get --path mocks/create-event-get-pics-tree1.json
+serverless invoke local --function get --path mocks/get-event-nopic.json
+serverless invoke local --function get --path mocks/get-event-tree1.json
+serverless invoke local --function get --path mocks/get-event-pics-tree1.json
 
 serverless invoke local --function update --path mocks/update-event.json
-serverless invoke local --function update --path mocks/update-event-treeroot.json
+serverless invoke local --function update --path mocks/update-event-treeroot2.json
 
 -------------------------
 ubuntu@ip-172-26-12-71:~/git1/g48-notes-serverless$ serverless invoke local --function get --path mocks/create-event-get-nopic.json
