@@ -1,0 +1,11 @@
+{
+    "body": "{\"content\":\"updated world world\"}",
+    "pathParameters": {
+      "id": "c1554230-a7cb-11e8-b32b-43c9d7fefa56"
+    },
+    "requestContext": {
+      "identity": {
+        "cognitoIdentityId": "USER-SUB-1234"
+      }
+    }
+  }

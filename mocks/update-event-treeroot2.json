@@ -1,0 +1,11 @@
+{
+    "body": "{\"content\":\"updated world world\",\"attachment\":\"treeroot2.jpg\"}",
+    "pathParameters": {
+      "id": "dd684270-a7ca-11e8-b6dc-a5c4628b4611"
+    },
+    "requestContext": {
+      "identity": {
+        "cognitoIdentityId": "USER-SUB-1234"
+      }
+    }
+  }
